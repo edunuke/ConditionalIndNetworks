@@ -21,7 +21,8 @@ This is a Exploratory Data Analysis technique that is able to visually guide the
 1. Load data Target + Covariates or Covariates only
 2. Perform power transform to make data more gaussian-like
 3. Load the module and fit the PartialCorrelations Model
-4. Explore the plots and tune the thresholds
+4. Explore the plots (see below from the California Housing Prices Dataset) and tune the thresholds
+
 
 ![Full Dependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
 
