@@ -23,6 +23,10 @@ This is a Exploratory Data Analysis technique that is able to visually guide the
 3. Load the module and fit the PartialCorrelations Model
 4. Explore the plots (see below from the California Housing Prices Dataset) and tune the thresholds
 
+## Final associative structure model among covariates + target carries no information gain (threshold = 0.35)
+
+![Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)
+
 ## Full Dependence model among covariates + target carries no information gain (threshold = 1.0)
 
 ![Full Dependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
@@ -30,15 +34,13 @@ This is a Exploratory Data Analysis technique that is able to visually guide the
 
 ## Full Independence model among covariates + target also carries no information gain (threshold = 0.0)
 
-![Full Inependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
-
-## Final associative structure model among covariates + target carries no information gain (threshold = 0.35)
-
-![Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)
+![Full Inependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20independence%20plot.png)
 
 
 
-From the last plot we can make the following observations:
+
+
+From the first plot we can make the following observations:
 
 1. AveRooms and AveBedrms are strongly related to each other and together represents a latent concept which is House Size.
 2. This latent concept of House size has a strong association with MedInc (Median Income)
