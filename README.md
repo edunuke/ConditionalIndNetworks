@@ -34,7 +34,7 @@ This is a Exploratory Data Analysis technique that is able to visually guide the
 
 ## Final associative structure model among covariates + target carries no information gain (threshold = 0.35)
 
-![Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)!
+![Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)
 
 
 
