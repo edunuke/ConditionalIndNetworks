@@ -23,10 +23,28 @@ This is a Exploratory Data Analysis technique that is able to visually guide the
 3. Load the module and fit the PartialCorrelations Model
 4. Explore the plots (see below from the California Housing Prices Dataset) and tune the thresholds
 
+## Full Dependence model among covariates + target carries no information gain (threshold = 1.0)
 
 ![Full Dependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
 
-![Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)!
+
+## Full Independence model among covariates + target also carries no information gain (threshold = 0.0)
 
 ![Full Inependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
 
+## Final associative structure model among covariates + target carries no information gain (threshold = 0.35)
+
+![Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)!
+
+
+
+It can be seen in the last plot that: 
+
+1. AveRooms and AveBedrms are strongly related to each other and together represents a latent concept which is House Size.
+2. This latent concept of House size has a strong association with MedInc (Median Income)
+3. MedInc is strongly associated with the target (house price)
+4. Latitude and Longitude are strongly associated and together represent a latent concept which is Position/Localization
+5. Position is strongly associated with the target (house price)
+6. Population, House Age, and Average Occupancy are not related to each other, other variables nor the target.
+
+The final structre makes a lot of sense for the dataset which helps validates expert knowledge gained during the problem understanding phase of a project. It is important to understand that this is not a causal model, hence no directed components, as the dataset is purely observational. However, the analyst and the expert broker can validate with their knowledge the structure. The role of the analyst is to choose a threshold that more or less represents the degree of belief in the associations presented given the dataset.
