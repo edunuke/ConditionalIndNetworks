@@ -38,7 +38,7 @@ This is a Exploratory Data Analysis technique that is able to visually guide the
 
 
 
-It can be seen in the last plot that: 
+From the last plot we can make the following observations:
 
 1. AveRooms and AveBedrms are strongly related to each other and together represents a latent concept which is House Size.
 2. This latent concept of House size has a strong association with MedInc (Median Income)
