@@ -23,9 +23,9 @@ This is a Exploratory Data Analysis technique that is able to visually guide the
 3. Load the module and fit the PartialCorrelations Model
 4. Explore the plots and tune the thresholds
 
-![Full Dependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
+[Full Dependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
 
-![Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)
+[Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)
 
-![Full Inependence (No information gain)]([https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png])
+[Full Inependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
 
