@@ -16,16 +16,16 @@ See example notebook
 
 # Example Results and Interpretation
 
-This is a Exploratory Data Analysis technique that is able to visually guide the discovery of associative structures in datasets which can help you build more interpretable models at the problem understanding and data exploration phase. The method is simple yet powerful given some sets of assumptions (see paper referenced).
+This is a Exploratory Data Analysis technique that is able to visually guide the discovery of associative structures in datasets which can help you build more interpretable models at the problem understanding and data exploration phase. The method is simple yet powerful given some important sets of assumptions (see paper referenced).
 
 1. Load data Target + Covariates or Covariates only
 2. Perform power transform to make data more gaussian-like
 3. Load the module and fit the PartialCorrelations Model
 4. Explore the plots and tune the thresholds
 
-[Full Dependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
+![Full Dependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
 
-[Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)
+![Thresholded Model](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/thresholded%20structure.png)!
 
-[Full Inependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
+![Full Inependence (No information gain)](https://github.com/edunuke/ConditionalIndNetworks/blob/main/img/full%20dependence%20plot.png)
 
